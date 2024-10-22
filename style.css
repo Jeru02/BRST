@@ -39,6 +39,7 @@ color: white;
   .video-container{
 
     position: absolute;
+    /* z index pushes it -1, i think the default is 0 */
     z-index: -1;
     top: 0;
     left: 0;
@@ -46,7 +47,16 @@ color: white;
     height: 100%;
     overflow: hidden;
     
-   
+  }
+
+
+/* means where the parent is the video container and the child is the video bg */
+
+  .video-container .video-bg {
+
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
 
   }
 
