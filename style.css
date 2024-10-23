@@ -1,12 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
 
+/* @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Londrina+Sketch&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Londrina+Sketch&family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Londrina+Sketch&family=Luckiest+Guy&family=Rubik+Mono+One&display=swap');
+
+/* fonts */
 
 
-*{
+
+* {
 box-sizing: border-box;
-margin: 0;
-padding: 0;
+
+padding: 0px;
+
+
 
 }
 
@@ -15,37 +25,69 @@ padding: 0;
 
 .title-container{
 
-font-family: 'Danfo';
+position: relative;
+/* top: 750px; */
+/* font-family: 'Danfo'; */
+font-family: 'Luckiest Guy';
 text-align:left;
-font-size: 50px;
+font-size: 30px;
 color: white;
+margin:10px;
+padding-left: 10px;
+
+
+border: 5px solid;
+
 
 }
+
+/* hide scroll bar for entire body */
+body
+{
+    overflow: hidden;
+}
+
+
+
+
 
 /* ToolBar styling */
 
 .toolBar-container{
 
     font-family: serif;
-    text-align:left;
-    font-size: 10px;
+    font-size: 30px;
     color: white;
+    border: 5px solid;
+    text-align:right;
+    margin:10px;
     
+    
+    }
+
+/* list elements int the tool bar */
+
+    .toolBar-container li{
+
+        display:inline;
+        
+
     }
 
 /* BACKGROUND VIDEO styling */
 
   
   .video-container{
-
+    
     position: absolute;
     /* z index pushes it -1, i think the default is 0 */
-    z-index: -1;
+    z-index: -10;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    
     
   }
 
