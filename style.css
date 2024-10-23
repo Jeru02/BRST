@@ -16,6 +16,7 @@ box-sizing: border-box;
 
 padding: 0px;
 margin: 0;
+cursor:URL ();
 
 }
 
@@ -24,25 +25,11 @@ margin: 0;
 /* ------------------------------------------ */
 
 
-/* BRST BOYS TITLE STYLING*/
-
-.toolBar-container .title-container{
-
-position: relative;
-font-family: 'Danfo';
-
-
-
-
-}
-
-
-
 /* ToolBar styling */
 
 .toolBar-container {
     font-size: 30px;
-    position: relative;
+    position: fixed;
     color: white;
     border: 5px solid ;
     text-align:center;
@@ -62,11 +49,32 @@ font-family: 'Danfo';
     .toolBar-container li{
 
         display:inline;
-        font-family: serif;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
         
         
 
     }
+
+    /* BRST BOYS TITLE STYLING*/
+
+    .toolBar-container .title-container{
+
+        position: relative;
+        font-family: 'Danfo';
+    
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
 
 /* BACKGROUND VIDEO styling */
 
@@ -94,6 +102,7 @@ font-family: 'Danfo';
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
+    filter: brightness(50%);
 
   }
 
