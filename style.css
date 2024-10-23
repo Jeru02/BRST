@@ -15,61 +15,55 @@
 box-sizing: border-box;
 
 padding: 0px;
-
-
+margin: 0;
 
 }
 
 
-/* BRST BOYS TITLE styling*/
 
-.title-container{
+/* ------------------------------------------ */
+
+
+/* BRST BOYS TITLE STYLING*/
+
+.toolBar-container .title-container{
 
 position: relative;
-/* top: 750px; */
-/* font-family: 'Danfo'; */
-font-family: 'Luckiest Guy';
-text-align:left;
-font-size: 30px;
-color: white;
-margin:10px;
-padding-left: 10px;
+font-family: 'Danfo';
 
 
-border: 5px solid;
 
 
 }
-
-/* hide scroll bar for entire body */
-body
-{
-    overflow: hidden;
-}
-
-
 
 
 
 /* ToolBar styling */
 
-.toolBar-container{
-
-    font-family: serif;
+.toolBar-container {
     font-size: 30px;
+    position: relative;
     color: white;
-    border: 5px solid;
-    text-align:right;
+    border: 5px solid ;
+    text-align:center;
     margin:10px;
+    padding: 10px;
+    width: 500px;
+    left: 1400px;
     
+    /* pushing it from the left 1400 pixels */
     
-    }
+}
+
+
 
 /* list elements int the tool bar */
 
     .toolBar-container li{
 
         display:inline;
+        font-family: serif;
+        
         
 
     }
@@ -87,6 +81,7 @@ body
     width: 100%;
     height: 100%;
     overflow: hidden;
+    /* hide scroll bar for entire body */
     
     
   }
