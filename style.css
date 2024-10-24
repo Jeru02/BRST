@@ -29,14 +29,14 @@ cursor:URL ();
 
 .toolBar-container {
     font-size: 30px;
-    position: fixed;
     color: white;
-    border: 5px solid ;
+    /* border: 5px solid ; */
     text-align:center;
     margin:10px;
     padding: 10px;
-    width: 500px;
-    left: 1400px;
+    width:fit-content;
+    position: relative;
+    left: 500px;
     
     /* pushing it from the left 1400 pixels */
     
@@ -48,8 +48,14 @@ cursor:URL ();
 
     .toolBar-container li{
 
-        display:inline;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        display:inline-block;
+        font-family:Impact;
+        border: 1px solid;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        cursor: pointer;
+        
         
         
 
@@ -61,6 +67,10 @@ cursor:URL ();
 
         position: relative;
         font-family: 'Danfo';
+        padding-bottom: 10px;
+        display: inline;
+        
+
     
     
     
