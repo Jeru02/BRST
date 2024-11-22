@@ -11,77 +11,13 @@
 
 
 
-* {
-box-sizing: border-box;
-
-padding: 0px;
-margin: 0;
+body{
 
 
+  color: white;
+  font-family: danfo;
+  font-size: 40px;
 }
-
-
-
-/* ------------------------------------------ */
-
-
-/* ToolBar styling */
-
-.toolBar-container {
-    font-size: 30px;
-    color: white;
-    /* border: 5px solid ; */
-    text-align:center;
-    padding: 10px;
-    position: relative;
-    text-align: center;
-    
-    
-    /* pushing it from the left 1400 pixels */
-    
-}
-
-
-
-/* list elements int the tool bar */
-
-    .toolBar-container li{
-
-        display:inline-block;
-        font-family:Impact;
-        border: 1px solid;
-        padding-left: 50px;
-        padding-right: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-align: center;
-        cursor: pointer;
-        
-        
-        
-
-    }
-
-    /* BRST BOYS TITLE STYLING*/
-
-    .toolBar-container .title-container{
-
-        position: relative;
-        font-family: 'Danfo';
-        padding-bottom: 10px;
-        display: inline-block;
-        margin-bottom: 5px;
-        cursor: pointer;
-        
-
-    
-    
-    
-    
-    }
-
-
-
 
 
 
@@ -103,7 +39,7 @@ margin: 0;
     height: 100%;
     overflow: hidden;
     /* hide scroll bar for entire body */
-    
+   
     
   }
 
@@ -118,6 +54,56 @@ margin: 0;
     filter: brightness(50%);
 
   }
+
+
+  .top-header{
+    
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    /* aligns on the main axis */
+
+    /* align-items: baseline; */
+    /* alligns on the cross axis */
+    padding-left: 10px;
+    padding-right: 10px;
+
+   
+  }
+
+  .right-header
+  {
+
+    /* border:1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    
+
+  }
+
+
+  
+
+
+  .Title
+  {
+
+    /* border:1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+ 
+
+  }
+
+
+
 
 
 
