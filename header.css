@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Londrina+Sketch&family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Londrina+Sketch&family=Luckiest+Guy&family=Rubik+Mono+One&display=swap');
+
+/* fonts */
+
+.top-header{
+    
+    /* border:1px solid red; */
+    Width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    /* aligns on the main axis */
+
+    /* align-items: baseline; */
+    /* alligns on the cross axis */
+    padding-left: 0px;
+    padding-right: 0px;
+    /* border: 5px, solid, green */
+    margin-bottom: 40px;
+
+
+  }
+
+
+  .right-header
+  {
+
+    /* border:1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    padding-right: 10px; 
+  }
+
+
+  .Title
+  {
+
+    /* border:1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    font-size: 40px;
+
+    transition: font-size 0.5s;
+    padding-left: 10px;
+    
+   
+  
+  }
+
+
+  .events, .contact, .info{
+
+    cursor: pointer;
+    font-size: 40px;
+  }

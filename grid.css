@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Londrina+Sketch&family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Londrina+Sketch&family=Luckiest+Guy&family=Rubik+Mono+One&display=swap');
+
+/* fonts */
+
+
+  .picture-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  .picture-container{
+    text-align: center;
+    width: 400px;
+    box-shadow: 0px 0px 20px lightblue;
+    transition: width 1s, box-shadow 1s;
+    box-shadow: 0px 0px 20px lightblue;
+  }
+
+  .picture-container:hover{
+    width: 100.1%;
+    box-shadow: 0px 0px 20px gold;
+  }
+
+  .brst-image{
+
+    width: 100%;
+     
+  }
+
+  
+
+
+
+
+
+
+
+
+  
