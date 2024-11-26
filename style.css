@@ -68,8 +68,9 @@ body{
     /* alligns on the cross axis */
     padding-left: 10px;
     padding-right: 10px;
+    border: 5px, solid, green
 
-   
+
   }
 
   .right-header
@@ -96,11 +97,39 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
    
     
  
 
   }
+
+  .events{
+
+    cursor: pointer;
+  }
+
+  .contact{
+
+    cursor: pointer;
+  }
+
+  .info{
+
+
+    cursor: pointer;
+
+  }
+
+  .event-board{
+
+    display: grid;
+    
+
+
+  }
+
+
 
 
 
